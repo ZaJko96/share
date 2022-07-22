@@ -1,2 +1,3 @@
 ---
-# tasks file for test
+- include_tasks: ping.yml
+- include_tasks: install.yml

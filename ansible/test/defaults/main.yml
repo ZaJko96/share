@@ -1,2 +1,5 @@
 ---
-# defaults file for test
+services:
+ - httpd
+ - tree
+ 
