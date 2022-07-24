@@ -1,0 +1,2 @@
+[AWS]
+linux1 ansible_host=44.208.164.235 

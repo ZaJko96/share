@@ -1,0 +1,8 @@
+---
+- name: main
+  hosts: all
+  become : yes
+  tasks:
+  - include_tasks: ping.yml
+  - include_tasks: install.yml
+ 

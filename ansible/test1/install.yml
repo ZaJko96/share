@@ -1,0 +1,7 @@
+---
+- name: Install software
+  yum: name="{{services}}" state=latest
+
+- name: Enable Apache
+  service: name="{{services}}" state=started enabled=yes
+   

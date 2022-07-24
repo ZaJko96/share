@@ -1,0 +1,9 @@
+---
+- name: Remove Apache
+  hosts: all
+  become: yes
+
+  tasks:
+
+  - name: Remove Apache
+    yum: name=httpd state=removed
